@@ -8,7 +8,11 @@ const sleep = () => {
 
 const code = () => {
     console.log("CODING!!!");
-}; 
+};
+
+const watchAnime = () => {
+    console.log("WATCHING JJK!!!");
+}
 
 const watchMovies = () => {
     console.log("WATCHING INTERSTELLAR!!!");
@@ -21,4 +25,5 @@ while(!dead){
     // sleep();
     code();
     watchMovies();
+    watchAnime();
 }
